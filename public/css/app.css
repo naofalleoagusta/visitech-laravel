@@ -1,0 +1,291 @@
+@media (min-width: 768px) {
+    .logo-nexus {
+        max-width: 15%;
+    }
+    .navbar-brand {
+        display: block;
+    }
+
+    .quote {
+        padding: 3em 2.5em;
+    }
+
+    footer {
+        padding: 3rem 0;
+    }
+}
+
+@media (max-height: 695px) {
+    .site-blocks-cover {
+        min-height: 130vh;
+    }
+}
+
+@media (min-height: 696px) {
+    .site-blocks-cover {
+        min-height: 100vh;
+    }
+}
+
+@media (max-width: 767px) {
+    .nexus-logo-container {
+        text-align: left;
+    }
+    .logo-nexus {
+        max-width: 45%;
+    }
+    .quote {
+        padding: 3em 0;
+    }
+    h1 {
+        font-size: 32px;
+    }
+
+    footer {
+        padding: 3rem 10%;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .mb-section {
+        margin-bottom: 6rem;
+    }
+    .navbar-brand-mob {
+        display: none;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .mb-section {
+        margin-bottom: 2rem;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .navbar-brand-mob {
+        display: block;
+    }
+    .navbar-brand {
+        display: none;
+    }
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+.navbar-brand-mob img {
+    width: 100px;
+}
+.navbar-visitech {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.banner.site-blocks-cover {
+    min-height: 575px;
+}
+.get-started.site-blocks-cover {
+    min-height: 200px;
+}
+
+.get-started p {
+    margin-bottom: 0.5rem;
+}
+.site-blocks-cover {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625em;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+}
+
+.site-blocks-cover p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.fade-bg {
+    background-color: rgba(255, 255, 255, 0.16);
+}
+
+.btn-contact {
+    color: white;
+    padding: 0.6em 1.8em;
+    font-size: 14px;
+    border-radius: 3em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.blue {
+    color: #27aae1;
+}
+
+.black {
+    color: black;
+}
+
+.mini-icon {
+    width: 25px;
+}
+
+.image-bg {
+    width: 100%;
+    padding-top: 100%;
+    background-size: cover;
+    border-radius: 0.5em;
+}
+
+.footer-brand {
+    width: 100px;
+}
+
+footer {
+    background-color: #1e1e1e;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content {
+    padding: 0 10%;
+}
+
+.contact-section p {
+    margin: 0;
+}
+
+footer li {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.toggler-wrapper {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggler {
+    position: fixed;
+    z-index: 2000;
+    bottom: 2.5em;
+    left: 50%;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    background: #27aae1;
+    transform: translateX(-50%);
+    transition: box-shadow 0.3s ease;
+    border: transparent;
+}
+
+.navbar-toggler span {
+    color: white;
+}
+
+.header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+
+.blue-bg {
+    background-color: #27aae1;
+}
+
+.fa-circle {
+    color: #222221;
+}
+
+.quote {
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.quote p {
+    font-size: 18px;
+}
+
+.btn-visitech {
+    background: #27aae1;
+    color: white;
+    padding: 0.7em 1.8em;
+    border-radius: 3em;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: white;
+}
+
+.dropdown-menu {
+    border: none;
+    border-radius: none;
+    font-size: 14px;
+}
+
+.dropdown-menu a{
+    font-weight: 600;
+    color:black;
+}

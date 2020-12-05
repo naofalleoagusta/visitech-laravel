@@ -1,0 +1,10 @@
+import './admin-user';
+import './profile-edit-profile';
+import './profile-edit-password';
+import './post';
+import './banner';
+import './faq';
+import './portofolio';
+import './contact';
+import './achievment';
+import './member';

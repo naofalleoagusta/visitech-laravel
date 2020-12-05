@@ -1,0 +1,26 @@
+type Query {
+    getFaqs: [Faq]
+    getPosts(limit: Int!, page: Int ):PostPaginator
+    getPostBySlug(slug:String! @eq) : Post
+    getBanners:[Banner]
+    getTeams:[Team]
+    getContacts:[Contact]
+    getPortofolios:[Portofolio]
+    getPortofolioBySlug(slug:String! ):Portofolio
+    getAchievements:[Achievement]
+    getAchievementBySlug(slug:String @eq):Achievement
+    getTopTwoPosts:[Post]
+
+}
+
+#type Query{
+#    fetchBanners: [Banner]
+#    fetchFaqs:[Faq]
+#    fetchGalleries:[Gallery]
+#    FetchGalleryBySlug(slug:String) : Gallery
+#    fetchPostBySlug(slug:String):Post
+#    fetchPosts:[Post]
+#    FetchProducts:[Product]
+#    FetchProductBySlug(slug:String):Product
+#    fetchTestimonies:[Testimony] @all
+#}

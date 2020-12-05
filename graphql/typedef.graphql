@@ -1,0 +1,117 @@
+scalar Date @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\Date")
+scalar DateTime @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\DateTime")
+
+type Faq {
+    id: ID!
+    question: String!
+    answer: String!
+    enabled: Boolean
+    created_at: DateTime!
+    updated_at: DateTime!
+}
+
+
+type Contact{
+    id: ID!
+    nama:String
+    email:String
+    desc:String
+    publish:Boolean
+    subject:String
+    created_at: DateTime!
+    updated_at: DateTime!
+}
+
+type Post{
+    id:ID!
+    title:String
+    slug:String
+    body:String
+    publish:Boolean
+    cover_image:String
+    thumbnail:String
+    created_at: DateTime!
+    updated_at: DateTime!
+}
+
+type Banner{
+    id:ID!
+    title:String
+    rank:Int
+    cover_image:String
+    thumbnail:String
+    publish:Boolean
+    created_at: DateTime!
+    updated_at: DateTime!
+}
+
+type Testimony {
+    id : ID!
+    author:String
+    testimony:String
+    publish:Boolean
+    created_at: DateTime!
+    updated_at: DateTime!
+}
+
+type Team{
+    id:ID!
+    name:String
+    position:String
+    linkedin:String
+    cover_image:String
+    thumbnail:String
+    created_at: DateTime!
+    updated_at: DateTime!
+}
+type Product{
+    id : ID!
+    product_name:String
+    slug:String
+    product_desc:String
+    cover_image:String
+    thumbnail:String
+    enable:Boolean
+    created_at: DateTime!
+    updated_at: DateTime!
+}
+
+type Portofolio{
+    id : ID!
+    name:String
+    slug:String
+    desc:String
+    cover_image:String
+    thumbnail:String
+    enable:Boolean
+    created_at: DateTime!
+    updated_at: DateTime!
+}
+
+type Gallery{
+    id : ID!
+    name :String
+    desc : String
+    slug:String
+    cover_image:String
+    thumbnail:String
+    enabled:Boolean
+    created_at: DateTime!
+    updated_at: DateTime!
+}
+type Achievement{
+    id : ID!
+    name :String
+    desc : String
+    slug:String
+    cover_image:String
+    thumbnail:String
+    enabled:Boolean
+    created_at: DateTime!
+    updated_at: DateTime!
+}
+
+type PostPaginator {
+  data: [Post!]!
+  length: Int
+}

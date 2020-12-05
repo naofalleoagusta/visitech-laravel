@@ -1,0 +1,3 @@
+#import typedef.graphql
+#import query.graphql
+#import mutation.graphql
