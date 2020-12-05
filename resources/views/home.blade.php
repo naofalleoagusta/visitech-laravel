@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    @include('/includes/head')
+    @include('/includes/head',['title'=>'Home'])
 </head>
 <style>
     .visi-section .subtitle {
@@ -150,15 +150,22 @@
                     </a>
                 </div>
                 <div class="col-md-5 offset-md-2 mt-4 mt-md-0">
-                    <a href="#" class="link-title blue">
-                        <img src="{{ $icon_pwrbox }}" class="mini-icon icon-bg mr-2" alt="icon_power_box">
+                    <a href="/about-us#our-vision" class="link-title blue  d-flex align-items-center">
+
+                        <span class="fa-stack" style="vertical-align: top;">
+                            <i class="fas fa-circle fa-stack-2x" style="color:black;"></i>
+                            <i class="fas fa-globe fa-stack-1x " style="color:white;"></i>
+                        </span>
                         Our Vision
                         <i class="fas fa-chevron-right ml-2"></i>
                         <i class="fas fa-arrow-right blue "></i>
                     </a>
                     <p>See more about the Vision of Visi</p>
-                    <a href="#" class="link-title blue">
-                        <img src="{{ $icon_pwrbox }}" class="mini-icon icon-bg mr-2" alt="icon_power_box">
+                    <a href="/about-us#our-team" class="link-title blue d-flex align-items-center">
+                        <span class="fa-stack" style="vertical-align: top;">
+                            <i class="fas fa-circle fa-stack-2x" style="color:black;"></i>
+                            <i class="fas fa-users fa-stack-1x" style="color:white;"></i>
+                        </span>
                         Our Team
                         <i class="fas fa-chevron-right ml-2"></i>
                         <i class="fas fa-arrow-right blue "></i>

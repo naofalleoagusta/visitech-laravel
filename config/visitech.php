@@ -140,13 +140,14 @@ return [
             "wa" => "(+62) 8111-705-34",
             "email" => [
                 "info@visinnovation.id",
-                "sales@visinnovation.id"
+                // "sales@visinnovation.id"
             ]
         ],
         "socmed" => [
             "fb" => "",
             "linkedin" => "https://www.linkedin.com/company/visi-technovation",
-            "ig" => "https://www.instagram.com/visitechnovation/"
+            "ig" => "https://www.instagram.com/visitechnovation/",
+            "wa"=>"https://api.whatsapp.com/send?phone=62811170534"
         ]
     ]
 ];

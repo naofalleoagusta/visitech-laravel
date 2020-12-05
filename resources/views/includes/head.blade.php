@@ -5,12 +5,13 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+<link rel="icon" href="https://ik.imagekit.io/vp9bgybmpm/Logo_Visi_TqigWP9bn6aE.png" type="image/x-icon"/>
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <meta name="csrf-token" content="{{ csrf_token() }}" />
 <title>
     @if(isset($title))
-        {{ $title }}
+        {{ $title }} | VisiTech
     @else
-        Visitech
+        VisiTech
     @endif
 </title>

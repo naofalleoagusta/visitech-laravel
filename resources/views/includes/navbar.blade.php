@@ -22,7 +22,7 @@ $logo=config('visitech.logo');
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="/visi-powerwall">Visi Powerwall</a>
-                                    <a class="dropdown-item" href="visi-smart-socket">Visi Smart Socket</a>
+                                    <a class="dropdown-item" href="/visi-smart-socket">Visi Smart Socket</a>
                                 </div>
                             </li>
                             <li class="nav-item d-flex">

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    @include('/includes/head')
+    @include('/includes/head',['title'=>'Contact Us'])
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css">
 </head>
 <style>

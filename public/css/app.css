@@ -13,6 +13,9 @@
     footer {
         padding: 3rem 0;
     }
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(255, 255, 255, 0.6);
+    }
 }
 
 @media (max-height: 695px) {
@@ -43,6 +46,9 @@
 
     footer {
         padding: 3rem 10%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
     }
 }
 
@@ -139,7 +145,6 @@ h5 {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -198,8 +203,10 @@ footer p {
     padding: 0 10%;
 }
 
-.contact-section p {
+.contact-section p,
+.contact-section a {
     margin: 0;
+    font-size: 14px;
 }
 
 footer li {
@@ -227,8 +234,8 @@ footer a:hover {
 .navbar-toggler {
     position: fixed;
     z-index: 2000;
-    bottom: 2.5em;
-    left: 50%;
+    bottom: 1rem;
+    right: -5%;
     width: 3.5em;
     height: 3.5em;
     border-radius: 50%;
@@ -285,7 +292,7 @@ footer a:hover {
     font-size: 14px;
 }
 
-.dropdown-menu a{
+.dropdown-menu a {
     font-weight: 600;
-    color:black;
+    color: black;
 }

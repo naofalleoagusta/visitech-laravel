@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    @include('/includes/head')
+    @include('/includes/head',['title'=>'News '.$news[0]->title])
 </head>
 <style>
     .news-detail-section p {

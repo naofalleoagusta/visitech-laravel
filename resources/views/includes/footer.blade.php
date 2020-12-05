@@ -28,9 +28,17 @@ $footer=config('visitech.footer');
                     <div class="col-md-3 offset-md-3 mt-4 mt-md-0">
                         <h5 class="footer-heading mb-4">Quick Links</h5>
                         <ul class="list-unstyled">
-                            <li><a href="#dropdownMenuButton">Our Products</a></li>
+                            <li>
+                                <a data-toggle="collapse" href="#collape-product" role="button" aria-expanded="false"
+                                    aria-controls="collape-product">Our Products
+                                </a>
+                            </li>
+                            <ul class="collapse list-unstyled pl-2" style="font-size:14px" id="collape-product">
+                                <li><a href="/visi-powerwall">Visi Powerwall</a></li>
+                                <li><a href="/visi-smart-socket">Visi Smart Socket</a></li>
+                            </ul>
                             <li><a href="/about-us">About Us</a></li>
-                            <li><a href="#">News</a></li>
+                            <li><a href="/news">News</a></li>
                         </ul>
                     </div>
 
@@ -48,17 +56,17 @@ $footer=config('visitech.footer');
                                 </p>
                             </div>
                             <div class="d-flex w-100 align-items-center">
-                                <i class="fas fa-phone mr-3"></i>
-                                <p>
+                                <i class="fab fa-whatsapp mr-3"></i>
+                                <a href="{{ $footer['contact']['wa'] }}" target="_blank" rel="noopener noreferrer">
                                     {{ $footer['contact']['wa'] }}
-                                </p>
+                                </a>
                             </div>
                             @foreach ($footer['contact']['email'] as $value)
                                 <div class="d-flex align-items-center w-100">
                                     <i class="far fa-envelope mr-3"></i>
-                                    <p>
+                                    <a href="mailto:{{ $value }}" target="_blank" rel="noopener noreferrer">
                                         {{ $value }}
-                                    </p>
+                                    </a>
                                 </div>
                             @endforeach
                         </div>
@@ -106,7 +114,7 @@ $footer=config('visitech.footer');
                 scrollTop: $($.attr(this, 'href')).offset().top
             }, 500);
         });
-
+        
         $('.navbar-toggler').on('click', function(event) {
             $('.navbar-toggler span').fadeOut("fast", "linear", function() {
                 $('.navbar-toggler span').toggleClass("fa-bars");

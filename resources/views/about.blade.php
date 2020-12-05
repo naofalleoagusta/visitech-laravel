@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    @include('/includes/head')
+    @include('/includes/head',['title'=>'About Us'])
 </head>
 <style>
     .about-us img {
@@ -99,7 +99,7 @@
                 </p>
             </div>
         </div>
-        <div class="row mb-section our-vision-section ">
+        <div class="row mb-section our-vision-section " id="our-vision">
             <div class="col-12 section-header mb-3">
                 <h2>Our Vision</h2>
                 <p>
@@ -134,7 +134,7 @@
                 </p>
             </div>
         </div>
-        <div class="mb-section row our-team-section justify-content-center">
+        <div class="mb-section row our-team-section justify-content-center" id="our-team">
             <div class="col-12 text-center mb-5">
                 <h2>Meet our team</h2>
                 <p>Our team is filled with ambitious, self-driven professionals in their respective expertise</p>
